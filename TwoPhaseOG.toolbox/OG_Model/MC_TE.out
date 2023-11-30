@@ -1,0 +1,266 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.18 of Day Month 20?? (rev: c5a78fa)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 37 and seed 3277109377498720603 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 9262] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/TwoPhaseOG.toolbox/OG_Model/MC.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/TwoPhaseOG.toolbox/OG_Model/TwoPhaseOG.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/TLC.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/TwoPhaseOG.toolbox/OG_Model/TCommit.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Naturals.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Sequences.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module TCommit
+Semantic processing of module TwoPhaseOG
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2023-11-27 13:16:27)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2023-11-27 13:16:28.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.4E-11
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2023-11-27 13:16:29
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<TPInit line 62, col 1 to line 62, col 6 of module TwoPhaseOG>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 66, col 16 to line 66, col 40 of module TwoPhaseOG: 1:5
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 66, col 24 to line 66, col 25 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 6, col 1 to line 6, col 35 of module MC: 1:6
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 6 to line 68, col 22 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 6 to line 69, col 14 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMRcvPrepared line 75, col 1 to line 75, col 17 of module TwoPhaseOG>: 370:2560
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 79, col 6 to line 79, col 21 of module TwoPhaseOG: 46720
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 79, col 6 to line 79, col 12 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 6 to line 80, col 46 of module TwoPhaseOG: 7680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 6 to line 80, col 37 of module TwoPhaseOG: 5120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 43 to line 80, col 46 of module TwoPhaseOG: 5120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 6 to line 81, col 39 of module TwoPhaseOG: 2560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 81, col 20 to line 81, col 39 of module TwoPhaseOG: 2560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 81, col 20 to line 81, col 29 of module TwoPhaseOG: 2560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 81, col 36 to line 81, col 39 of module TwoPhaseOG: 2560:4310
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 81, col 37 to line 81, col 38 of module TwoPhaseOG: 2560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 6 to line 82, col 41 of module TwoPhaseOG: 2560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMCommit line 84, col 1 to line 84, col 8 of module TwoPhaseOG>: 1:1
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 6 to line 89, col 21 of module TwoPhaseOG: 8833
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 89, col 6 to line 89, col 12 of module TwoPhaseOG: 8832
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 6 to line 90, col 20 of module TwoPhaseOG: 1025
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 6 to line 90, col 15 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 19 to line 90, col 20 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 6 to line 91, col 27 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 6 to line 92, col 44 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 92, col 14 to line 92, col 44 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 92, col 14 to line 92, col 17 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 92, col 24 to line 92, col 44 of module TwoPhaseOG: 1:2
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 92, col 25 to line 92, col 43 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 93, col 6 to line 93, col 38 of module TwoPhaseOG: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMAbort line 95, col 1 to line 95, col 7 of module TwoPhaseOG>: 406:1024
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 6 to line 99, col 21 of module TwoPhaseOG: 9856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 99, col 6 to line 99, col 12 of module TwoPhaseOG: 8832
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 6 to line 100, col 25 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 6 to line 101, col 43 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 101, col 14 to line 101, col 43 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 101, col 14 to line 101, col 17 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 101, col 24 to line 101, col 43 of module TwoPhaseOG: 1024:1984
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 101, col 25 to line 101, col 42 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 6 to line 102, col 38 of module TwoPhaseOG: 1024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMPrepare line 104, col 1 to line 104, col 13 of module TwoPhaseOG>: 1581:7760
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 6 to line 108, col 28 of module TwoPhaseOG: 51920
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 108, col 6 to line 108, col 16 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 6 to line 109, col 51 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 6 to line 110, col 57 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 110, col 14 to line 110, col 57 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 110, col 14 to line 110, col 17 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 110, col 24 to line 110, col 57 of module TwoPhaseOG: 7760:15360
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 110, col 25 to line 110, col 56 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 111, col 6 to line 111, col 38 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMChooseToAbort line 113, col 1 to line 113, col 19 of module TwoPhaseOG>: 1785:7760
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 118, col 6 to line 118, col 28 of module TwoPhaseOG: 51920
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 118, col 6 to line 118, col 16 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 119, col 6 to line 119, col 50 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 6 to line 120, col 44 of module TwoPhaseOG: 7760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMRcvCommitMsg line 122, col 1 to line 122, col 18 of module TwoPhaseOG>: 31:160
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 126, col 6 to line 126, col 33 of module TwoPhaseOG: 44320
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 126, col 6 to line 126, col 24 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 126, col 30 to line 126, col 33 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 127, col 6 to line 127, col 52 of module TwoPhaseOG: 160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 6 to line 128, col 44 of module TwoPhaseOG: 160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMRcvAbortMsg line 130, col 1 to line 130, col 17 of module TwoPhaseOG>: 4657:38880
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 134, col 6 to line 134, col 32 of module TwoPhaseOG: 83040
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 134, col 6 to line 134, col 23 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 134, col 29 to line 134, col 32 of module TwoPhaseOG: 44160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 135, col 6 to line 135, col 50 of module TwoPhaseOG: 38880
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 6 to line 136, col 44 of module TwoPhaseOG: 38880
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(17) at 2023-11-27 13:16:29: 58,146 states generated (1,000,217 s/min), 8,832 distinct states found (151,926 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+58146 states generated, 8832 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 17.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 11 and the 95th percentile is 4).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 3525ms at (2023-11-27 13:16:29)
+@!@!@ENDMSG 2186 @!@!@

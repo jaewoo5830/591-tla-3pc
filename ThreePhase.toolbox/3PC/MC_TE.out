@@ -1,0 +1,378 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.18 of Day Month 20?? (rev: c5a78fa)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 31 and seed -6723024258742813838 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 10923] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/ThreePhase.toolbox/3PC/MC.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/ThreePhase.toolbox/3PC/ThreePhase.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/TLC.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Integers.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Sequences.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Naturals.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/E3C9EDF1-6F94-4187-996B-D09EBC1AD7F4/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module ThreePhase
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2023-11-27 13:45:28)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2023-11-27 13:45:29.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(10) at 2023-11-27 13:45:32: 450,143 states generated (450,143 s/min), 86,285 distinct states found (86,285 ds/min), 46,079 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 3.9E-7
+  based on the actual fingerprints:  val = 3.1E-8
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2023-11-27 13:45:52
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<TPInit line 32, col 1 to line 32, col 6 of module ThreePhase>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 33, col 16 to line 33, col 40 of module ThreePhase: 1:6
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 33, col 24 to line 33, col 25 of module ThreePhase: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 6, col 1 to line 6, col 42 of module MC: 1:7
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 6 to line 35, col 20 of module ThreePhase: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 6 to line 36, col 21 of module ThreePhase: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 37, col 15 to line 37, col 34 of module ThreePhase: 1:6
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 37, col 23 to line 37, col 24 of module ThreePhase: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 6, col 1 to line 6, col 42 of module MC: 1:7
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 6 to line 38, col 14 of module ThreePhase: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMRcvPrepared line 41, col 1 to line 41, col 17 of module ThreePhase>: 12208:186624
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 6 to line 42, col 21 of module ThreePhase: 5787942
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 42, col 6 to line 42, col 12 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 6 to line 43, col 46 of module ThreePhase: 466560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 43, col 6 to line 43, col 37 of module ThreePhase: 279936
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 43, col 43 to line 43, col 46 of module ThreePhase: 279936
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 44, col 6 to line 44, col 39 of module ThreePhase: 186624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 44, col 20 to line 44, col 39 of module ThreePhase: 186624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 44, col 20 to line 44, col 29 of module ThreePhase: 186624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 44, col 36 to line 44, col 39 of module ThreePhase: 186624:348672
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 44, col 37 to line 44, col 38 of module ThreePhase: 186624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 6 to line 45, col 62 of module ThreePhase: 186624
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMStartVote line 48, col 1 to line 48, col 11 of module ThreePhase>: 9052:46656
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 6 to line 49, col 21 of module ThreePhase: 980209
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 49, col 6 to line 49, col 12 of module ThreePhase: 933553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 6 to line 50, col 33 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 6 to line 51, col 65 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMCollectVotes line 54, col 1 to line 54, col 14 of module ThreePhase>: 25182:46656
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 6 to line 55, col 32 of module ThreePhase: 980209
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 55, col 6 to line 55, col 12 of module ThreePhase: 933553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 6 to line 56, col 52 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 56, col 21 to line 56, col 52 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 56, col 34 to line 56, col 51 of module ThreePhase: 279936
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 56, col 29 to line 56, col 30 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 6, col 1 to line 6, col 42 of module MC: 46656:326592
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 9 to line 57, col 25 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 11 to line 58, col 32 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 11 to line 59, col 30 of module ThreePhase: 42560
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 6 to line 60, col 47 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 60, col 14 to line 60, col 47 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 60, col 14 to line 60, col 17 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 60, col 24 to line 60, col 47 of module ThreePhase: 46656:93184
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 60, col 25 to line 60, col 46 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 6 to line 61, col 46 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMCommit line 64, col 1 to line 64, col 8 of module ThreePhase>: 3249:4096
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 6 to line 65, col 26 of module ThreePhase: 937649
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 65, col 6 to line 65, col 12 of module ThreePhase: 933553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 6 to line 66, col 27 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 67, col 6 to line 67, col 44 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 67, col 14 to line 67, col 44 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 67, col 14 to line 67, col 17 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 67, col 24 to line 67, col 44 of module ThreePhase: 4096:8192
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 67, col 25 to line 67, col 43 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 6 to line 68, col 59 of module ThreePhase: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<TMAbort line 71, col 1 to line 71, col 7 of module ThreePhase>: 11631:46656
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 6 to line 72, col 21 of module ThreePhase: 980209
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 6 to line 72, col 12 of module ThreePhase: 933553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 6 to line 73, col 25 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 6 to line 74, col 43 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 74, col 14 to line 74, col 43 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 74, col 14 to line 74, col 17 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 74, col 24 to line 74, col 43 of module ThreePhase: 46656:93184
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 74, col 25 to line 74, col 42 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 6 to line 75, col 59 of module ThreePhase: 46656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMPrepare line 78, col 1 to line 78, col 13 of module ThreePhase>: 155043:644214
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 79, col 6 to line 79, col 28 of module ThreePhase: 6245532
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 79, col 6 to line 79, col 16 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 6 to line 80, col 51 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 6 to line 81, col 44 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 6 to line 82, col 57 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 14 to line 82, col 57 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 82, col 14 to line 82, col 17 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 82, col 24 to line 82, col 57 of module ThreePhase: 644214:1287660
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 82, col 25 to line 82, col 56 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 83, col 6 to line 83, col 51 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMChooseToAbort line 86, col 1 to line 86, col 19 of module ThreePhase>: 122339:644214
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 87, col 6 to line 87, col 28 of module ThreePhase: 6245532
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 87, col 6 to line 87, col 16 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 6 to line 88, col 50 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 6 to line 89, col 43 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 6 to line 90, col 57 of module ThreePhase: 644214
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMReadyToCommit line 93, col 1 to line 93, col 19 of module ThreePhase>: 343353:1736034
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 94, col 6 to line 94, col 29 of module ThreePhase: 7337352
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 94, col 6 to line 94, col 16 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 6 to line 95, col 56 of module ThreePhase: 1736034
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 6 to line 96, col 65 of module ThreePhase: 1736034
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMRcvPreCommitMsg line 99, col 1 to line 99, col 21 of module ThreePhase>: 108072:3468582
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 6 to line 100, col 36 of module ThreePhase: 9069900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 100, col 6 to line 100, col 27 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 100, col 33 to line 100, col 36 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 6 to line 101, col 56 of module ThreePhase: 3468582
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 6 to line 102, col 65 of module ThreePhase: 3468582
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMRcvCommitMsg line 105, col 1 to line 105, col 18 of module ThreePhase>: 34041:279936
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 6 to line 106, col 33 of module ThreePhase: 5881254
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 106, col 6 to line 106, col 24 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 106, col 30 to line 106, col 33 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 6 to line 107, col 52 of module ThreePhase: 279936
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 6 to line 108, col 65 of module ThreePhase: 279936
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RMRcvAbortMsg line 111, col 1 to line 111, col 17 of module ThreePhase>: 109382:1572864
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 6 to line 112, col 32 of module ThreePhase: 7174182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 112, col 6 to line 112, col 23 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 112, col 29 to line 112, col 32 of module ThreePhase: 5601318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 6 to line 113, col 50 of module ThreePhase: 1572864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 114, col 6 to line 114, col 65 of module ThreePhase: 1572864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(22) at 2023-11-27 13:45:52: 8,676,533 states generated (20,415,371 s/min), 933,553 distinct states found (2,196,595 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+8676533 states generated, 933553 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 22.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 18 and the 95th percentile is 4).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 25521ms at (2023-11-27 13:45:52)
+@!@!@ENDMSG 2186 @!@!@
