@@ -27,6 +27,15 @@ TPTypeOK ==
   /\ tmCanCommit \subseteq RM
   /\ rmVote \in [RM -> {"Yes", "No"}]
   /\ msgs \subseteq Message
+  
+\* Ensures that RMs cannot come to conflicting final states.
+TPConsistent ==
+  \A rm1, rm2 \in RM : ~ /\ rmState[rm1] = "aborted"
+                         /\ rmState[rm2] = "committed"
+
+\* Ensures that the TM will eventually commit or abort the transaction, aka Liveness.
+TPLive ==
+  <>(tmState = "committed" \/ tmState = "aborted")
 
 \* Defines the initial state of the system with the TM not started and RMs in 'working' state.
 TPInit ==   
@@ -124,10 +133,12 @@ TPNext ==
 
 -----------------------------------------------------------------------------
 \* Theorem stating the maintenance of type correctness throughout the system execution.
-TPSpec == TPInit /\ [][TPNext]_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>>
-THEOREM TPSpec => []TPTypeOK
+TPSpec == TPInit /\ [][TPNext]_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>> /\ WF_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>>(TPNext)
+THEOREM TPSpec => [](TPTypeOK /\ TPConsistent)
 =============================================================================
 
 \* Modification History
+\* Last modified Fri Dec 01 00:17:23 EST 2023 by andre
+\* Last modified Thu Nov 30 23:26:44 EST 2023 by andre
 \* Last modified Mon Nov 27 13:45:19 EST 2023 by jaewoo
 \* Created Mon Nov 27 13:35:25 EST 2023 by jaewoo
