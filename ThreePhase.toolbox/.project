@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>TCommit.tla</name>
+			<type>1</type>
+			<location>/Users/jaewoo/Documents/EECS 591/Project/TCommit.tla</location>
+		</link>
+		<link>
 			<name>ThreePhase.tla</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/ThreePhase.tla</locationURI>

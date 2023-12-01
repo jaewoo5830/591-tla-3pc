@@ -2,67 +2,51 @@
 TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 10 and seed 1425288635125796531 with 4 workers on 20 cores with 2404MB heap and 5405MB offheap memory [pid: 27532] (Windows 10 10.0 amd64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 47 and seed 6756732387030073653 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 2911] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
-Parsing file C:\Users\Andrew\Documents\eecs591\tla-3pc\ThreePhase.toolbox\3PC\MC.tla
-Parsing file C:\Users\Andrew\Documents\eecs591\tla-3pc\ThreePhase.toolbox\3PC\ThreePhase.tla
-Parsing file C:\Users\Andrew\Downloads\TLAToolbox\toolbox\plugins\org.lamport.tlatools_1.0.0.202012311918\tla2sany\StandardModules\TLC.tla
-Parsing file C:\Users\Andrew\Downloads\TLAToolbox\toolbox\plugins\org.lamport.tlatools_1.0.0.202012311918\tla2sany\StandardModules\Integers.tla
-Parsing file C:\Users\Andrew\Downloads\TLAToolbox\toolbox\plugins\org.lamport.tlatools_1.0.0.202012311918\tla2sany\StandardModules\Sequences.tla
-Parsing file C:\Users\Andrew\Downloads\TLAToolbox\toolbox\plugins\org.lamport.tlatools_1.0.0.202012311918\tla2sany\StandardModules\Naturals.tla
-Parsing file C:\Users\Andrew\Downloads\TLAToolbox\toolbox\plugins\org.lamport.tlatools_1.0.0.202012311918\tla2sany\StandardModules\FiniteSets.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/ThreePhase.toolbox/3PC/MC.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/ThreePhase.toolbox/3PC/ThreePhase.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/835539E3-C2F4-49DA-B259-B6CC637D4AF6/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/TLC.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/835539E3-C2F4-49DA-B259-B6CC637D4AF6/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Integers.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/835539E3-C2F4-49DA-B259-B6CC637D4AF6/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Sequences.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/835539E3-C2F4-49DA-B259-B6CC637D4AF6/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/Naturals.tla
+Parsing file /Users/jaewoo/Documents/EECS 591/Project/ThreePhase.toolbox/3PC/TCommit.tla
+Parsing file /private/var/folders/wn/ng7gz88x6wz8bnnfj29f7rrc0000gn/T/AppTranslocation/835539E3-C2F4-49DA-B259-B6CC637D4AF6/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202311031645/tla2sany/StandardModules/FiniteSets.tla
 Semantic processing of module Naturals
 Semantic processing of module Integers
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
 Semantic processing of module TLC
+Semantic processing of module TCommit
 Semantic processing of module ThreePhase
 Semantic processing of module MC
 @!@!@STARTMSG 2219:0 @!@!@
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2023-12-01 00:17:39)
+Starting... (2023-11-30 23:46:09)
 @!@!@ENDMSG 2185 @!@!@
-@!@!@STARTMSG 2212:0 @!@!@
-Implied-temporal checking--satisfiability problem has 1 branches.
-@!@!@ENDMSG 2212 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
 @!@!@STARTMSG 2190:0 @!@!@
-Finished computing initial states: 1 distinct state generated at 2023-12-01 00:17:39.
+Finished computing initial states: 1 distinct state generated at 2023-11-30 23:46:09.
 @!@!@ENDMSG 2190 @!@!@
-@!@!@STARTMSG 2192:0 @!@!@
-Checking temporal properties for the current state space with 126250 total distinct states at (2023-12-01 00:17:42)
-@!@!@ENDMSG 2192 @!@!@
-@!@!@STARTMSG 2267:0 @!@!@
-Finished checking temporal properties in 00s at 2023-12-01 00:17:43
-@!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(11) at 2023-12-01 00:17:43: 1,193,174 states generated (1,193,174 s/min), 205,223 distinct states found (205,223 ds/min), 93,855 states left on queue.
+Progress(11) at 2023-11-30 23:46:12: 974,108 states generated (974,108 s/min), 166,917 distinct states found (166,917 ds/min), 76,685 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
-@!@!@STARTMSG 2200:0 @!@!@
-Progress(22) at 2023-12-01 00:17:56: 8,676,533 states generated, 933,553 distinct states found, 0 states left on queue.
-@!@!@ENDMSG 2200 @!@!@
-@!@!@STARTMSG 2192:0 @!@!@
-Checking temporal properties for the complete state space with 933553 total distinct states at (2023-12-01 00:17:56)
-@!@!@ENDMSG 2192 @!@!@
-@!@!@STARTMSG 2267:0 @!@!@
-Finished checking temporal properties in 01s at 2023-12-01 00:17:57
-@!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
   calculated (optimistic):  val = 3.9E-7
-  based on the actual fingerprints:  val = 3.6E-8
+  based on the actual fingerprints:  val = 3.2E-8
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2023-12-01 00:17:58
+The coverage statistics at 2023-11-30 23:46:22
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2773:0 @!@!@
 <TPInit line 41, col 1 to line 41, col 6 of module ThreePhase>: 1:1
@@ -71,7 +55,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 42, col 3 to line 47, col 14 of module ThreePhase: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<TMRcvPrepared line 50, col 1 to line 50, col 17 of module ThreePhase>: 10112:186624
+<TMRcvPrepared line 41, col 1 to line 41, col 17 of module ThreePhase>: 12029:186624
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 51, col 6 to line 51, col 21 of module ThreePhase: 5787942
@@ -95,7 +79,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 54, col 6 to line 54, col 62 of module ThreePhase: 186624
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<TMStartVote line 57, col 1 to line 57, col 11 of module ThreePhase>: 9339:46656
+<TMStartVote line 48, col 1 to line 48, col 11 of module ThreePhase>: 9057:46656
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 58, col 6 to line 58, col 21 of module ThreePhase: 980209
@@ -110,7 +94,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 60, col 6 to line 60, col 65 of module ThreePhase: 46656
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<TMCollectVotes line 63, col 1 to line 63, col 14 of module ThreePhase>: 26447:46656
+<TMCollectVotes line 54, col 1 to line 54, col 14 of module ThreePhase>: 24988:46656
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 64, col 6 to line 64, col 32 of module ThreePhase: 980209
@@ -146,7 +130,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 70, col 6 to line 70, col 46 of module ThreePhase: 46656
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<TMCommit line 73, col 1 to line 73, col 8 of module ThreePhase>: 3260:4096
+<TMCommit line 64, col 1 to line 64, col 8 of module ThreePhase>: 3132:4096
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 74, col 6 to line 74, col 26 of module ThreePhase: 937649
@@ -164,7 +148,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 77, col 6 to line 77, col 59 of module ThreePhase: 4096
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<TMAbort line 80, col 1 to line 80, col 7 of module ThreePhase>: 12363:46656
+<TMAbort line 71, col 1 to line 71, col 7 of module ThreePhase>: 11817:46656
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 81, col 6 to line 81, col 21 of module ThreePhase: 980209
@@ -182,7 +166,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 84, col 6 to line 84, col 59 of module ThreePhase: 46656
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMPrepare line 87, col 1 to line 87, col 13 of module ThreePhase>: 160593:644214
+<RMPrepare line 78, col 1 to line 78, col 13 of module ThreePhase>: 154204:644214
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 88, col 6 to line 88, col 28 of module ThreePhase: 6245532
@@ -203,7 +187,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 92, col 6 to line 92, col 51 of module ThreePhase: 644214
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMChooseToAbort line 95, col 1 to line 95, col 19 of module ThreePhase>: 122806:644214
+<RMChooseToAbort line 86, col 1 to line 86, col 19 of module ThreePhase>: 120262:644214
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 96, col 6 to line 96, col 28 of module ThreePhase: 6245532
@@ -221,7 +205,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 99, col 6 to line 99, col 57 of module ThreePhase: 644214
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMReadyToCommit line 102, col 1 to line 102, col 19 of module ThreePhase>: 332064:1736034
+<RMReadyToCommit line 93, col 1 to line 93, col 19 of module ThreePhase>: 346162:1736034
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 103, col 6 to line 103, col 29 of module ThreePhase: 7337352
@@ -236,7 +220,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 105, col 6 to line 105, col 65 of module ThreePhase: 1736034
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMRcvPreCommitMsg line 108, col 1 to line 108, col 21 of module ThreePhase>: 112145:3468582
+<RMRcvPreCommitMsg line 99, col 1 to line 99, col 21 of module ThreePhase>: 108587:3468582
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 109, col 6 to line 109, col 36 of module ThreePhase: 9069900
@@ -254,7 +238,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 111, col 6 to line 111, col 65 of module ThreePhase: 3468582
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMRcvCommitMsg line 114, col 1 to line 114, col 18 of module ThreePhase>: 34723:279936
+<RMRcvCommitMsg line 105, col 1 to line 105, col 18 of module ThreePhase>: 33670:279936
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 115, col 6 to line 115, col 33 of module ThreePhase: 5881254
@@ -272,7 +256,7 @@ The coverage statistics at 2023-12-01 00:17:58
   line 117, col 6 to line 117, col 65 of module ThreePhase: 279936
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RMRcvAbortMsg line 120, col 1 to line 120, col 17 of module ThreePhase>: 109700:1572864
+<RMRcvAbortMsg line 111, col 1 to line 111, col 17 of module ThreePhase>: 109644:1572864
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 121, col 6 to line 121, col 32 of module ThreePhase: 7174182
@@ -293,7 +277,7 @@ The coverage statistics at 2023-12-01 00:17:58
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(22) at 2023-12-01 00:17:58: 8,676,533 states generated (26,244,806 s/min), 933,553 distinct states found (2,823,814 ds/min), 0 states left on queue.
+Progress(22) at 2023-11-30 23:46:22: 8,676,533 states generated (36,994,882 s/min), 933,553 distinct states found (3,980,470 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 8676533 states generated, 933553 distinct states found, 0 states left on queue.
@@ -305,5 +289,5 @@ The depth of the complete state graph search is 22.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 18 and the 95th percentile is 4).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 19845ms at (2023-12-01 00:17:58)
+Finished in 14082ms at (2023-11-30 23:46:22)
 @!@!@ENDMSG 2186 @!@!@

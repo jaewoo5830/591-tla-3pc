@@ -58,6 +58,7 @@ TPTypeOK ==
   /\ tmState \in {"init", "committed", "aborted"}
   /\ tmPrepared \subseteq RM
   /\ msgs \subseteq Message
+  /\ FALSE
 
 TPInit ==   
   (*************************************************************************)

@@ -133,12 +133,14 @@ TPNext ==
 
 -----------------------------------------------------------------------------
 \* Theorem stating the maintenance of type correctness throughout the system execution.
-TPSpec == TPInit /\ [][TPNext]_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>> /\ WF_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>>(TPNext)
-THEOREM TPSpec => [](TPTypeOK /\ TPConsistent)
+TPSpec == TPInit /\ [][WF_{rmState, tmState, tmPrepared, msgs, rmTimer}(TPNext)]_<<rmState, tmState, tmPrepared, tmCanCommit, rmVote, msgs>>
+THEOREM TPSpec => []TPTypeOK
+-----------------------------------------------------------------------------
+TC == INSTANCE TCommit 
+
+THEOREM TPSpec => TC!TCSpec
 =============================================================================
 
 \* Modification History
-\* Last modified Fri Dec 01 00:17:23 EST 2023 by andre
-\* Last modified Thu Nov 30 23:26:44 EST 2023 by andre
-\* Last modified Mon Nov 27 13:45:19 EST 2023 by jaewoo
+\* Last modified Fri Dec 01 00:10:14 EST 2023 by jaewoo
 \* Created Mon Nov 27 13:35:25 EST 2023 by jaewoo
